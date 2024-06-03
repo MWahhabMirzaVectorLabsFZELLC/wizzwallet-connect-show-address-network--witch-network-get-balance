@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect to WizzWallet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Button to connect to WizzWallet -->
+    <!-- Ensure onclick attribute references the correct function -->
+    <button class="connect-button box" onclick="connectToWizzWallet()">Connect Wallet</button>
+
+
+
+
+    <!-- Button to switch network -->
+    <button class="switch-btn box">Switch Network</button>
+
+    <div class="overlay"></div>
+
+    <div class="popup">
+        <h2>Select Network</h2>
+        <button class="livenet-btn">Mainnet</button>
+        <button class="testnet-btn">Testnet</button>
+    </div>
+
+
+
+
+
+
+<br><br><br><br>
+    <!-- Element to display the account address -->
+    <div id="account-address"></div>
+    <!-- Element to display the network status -->
+    <div id="network-status"></div>
+
+    <div id="account-balance"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
